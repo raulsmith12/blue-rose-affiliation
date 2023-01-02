@@ -3,5 +3,9 @@
 }
 
 .bg-secondary {
-    background-color: #d4af37 !important;
+    background-color: #414141 !important;
+}
+
+.font-lg {
+    font-size: xx-large;
 }
