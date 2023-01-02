@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="container-fluid fixed-bottom bg-secondary border-top border-primary p-3 text-center text-white">
             <div className="row">
                 <div className="col-12">
-                    <p>&copy;{(new Date().getFullYear())} Junk or Treasure, Inc. All Rights Reserved.</p>
+                    <p>&copy;{(new Date().getFullYear())} The Blue Rose Affiliation. All Rights Reserved.</p>
                     <p>
                         <Link href="/" className="text-white">Home</Link>&nbsp;|&nbsp;
                         <Link href="/about" className="text-white">About</Link>&nbsp;|&nbsp;

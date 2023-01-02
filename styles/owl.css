@@ -1,11 +1,11 @@
-.bg-primary {
-    background-color: #2e2eff !important;
-}
-
-.bg-secondary {
-    background-color: #414141 !important;
-}
-
 .font-lg {
     font-size: xx-large;
+}
+
+.text-shadow-lg {
+    text-shadow: 3px 3px 5px #121212;
+}
+
+.text-shadow-sm {
+    text-shadow: 1px 1px 2px #121212;
 }
