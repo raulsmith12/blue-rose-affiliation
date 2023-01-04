@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
+import Transition from '../components/Transition';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/owl.css';
@@ -16,7 +17,9 @@ function MyApp({ Component, pageProps }) {
         <div className="col px-0 pb-5 mb-5">
           <main className="main">
             <Header />
-            <Component {...pageProps} />
+              <Transition>
+                <Component {...pageProps} />
+              </Transition>
             <Footer />
           </main>
           <div>&nbsp;</div>

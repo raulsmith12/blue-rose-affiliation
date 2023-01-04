@@ -1,11 +1,13 @@
-export default function Home() {
-  return (
-    <div className="container-fluid px-0">
-      <div className="row mx-0">
-        <div className="col-12 bg-light py-3">
-          <h1 className="display-1 text-shadow-lg">Hello</h1>
+import PageHeader from '../components/PageHeader';
+
+const Home = () => {
+    return (
+        <div className="container-fluid px-0">
+            <div className="row mx-0">
+                <PageHeader title="Welcome to the Blue Rose Affiliation" />
+            </div>
         </div>
-      </div>
-    </div>
-  )
+    )
 }
+
+export default Home;
