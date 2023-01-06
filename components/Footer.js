@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <div className="container-fluid fixed-bottom bg-secondary border-top border-primary p-3 text-center text-white">
+        <div className="container-fluid fixed-bottom bg-primary border-top border-secondary p-3 text-center text-white">
             <div className="row">
                 <div className="col-12">
                     <p>&copy;{(new Date().getFullYear())} The Blue Rose Affiliation. All Rights Reserved.</p>

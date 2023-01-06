@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
               </Transition>
             <Footer />
           </main>
-          <div>&nbsp;</div>
+          <div className="pb-2 mb-2">&nbsp;</div>
         </div>
       </div>
     </div>
