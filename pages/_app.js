@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
+import CookieConsent from "react-cookie-consent";
 import Transition from '../components/Transition';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -45,6 +46,14 @@ function MyApp({ Component, pageProps }) {
                   <Component {...pageProps} />
                 </Transition>
               <Footer />
+              <CookieConsent
+                location="bottom"
+                buttonText="Okay"
+                buttonStyle={{ backgroundColor: "#767676", color: "black" }}
+                style={{ backgroundColor: "#0d6efd", zIndex: 9999, border: "3px groove #767676" }}
+              >
+                The Blue Rose Affiliation uses cookies to better the web experience for everyone. We have a strict privacy policy that prohibits us from selling user information to third party advertisers. Please see our privacy policy for more information.
+              </CookieConsent>
             </main>
             <div className="pb-2 mb-2">&nbsp;</div>
           </div>
